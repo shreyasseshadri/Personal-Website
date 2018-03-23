@@ -1,0 +1,90 @@
+{% extends "base.html" %}
+{% block style %}
+{% load static %}
+<link rel="stylesheet" type="text/css" href="{% static 'projects/styles.css' %}" />
+{% endblock %}
+  {% block navigation %}
+  <li class="nav-item ">
+    <a class="nav-link" href="/">Home</a>
+  </li>
+  <li class="nav-item active">
+    <a class="nav-link" href="/projects">Projects</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="/about">About Me</a>
+  </li>
+  {% endblock%}
+   {% block content %}
+  <div class="container">
+  <div class="jumbotron" style="background-color:transparent;">
+    <h1 style="text-align:center;color:red;">My Projects</h1>
+  </div>
+</div>
+  <div class="container">
+  <div class="row justify-content-around">
+    <div class="col-4">
+      <div class="card text-success" style="width: 20rem;">
+  <div class="card-block">
+    <h4 class="card-title">ML Implementations</h4>
+    <p class="card-text">Basic Machine Learning Implementations,deep learing coursera assignments</p>
+    <a href="https://github.com/shreyasseshadri/ML" class="btn btn-primary">Github</a>
+  </div>
+</div>
+    </div>
+    <div class="col-4">
+      <div class="card text-success"style="width: 20rem;">
+  <div class="card-block">
+    <h4 class="card-title">Kaggle</h4>
+    <p class="card-text">This repo contains the kernels that I used for the competions in kaggle,along with explanations.</p>
+    <a href="https://github.com/shreyasseshadri/Kaggle" class="btn btn-primary">Github</a>
+     <a href="https://www.kaggle.com/shreyaseshadri" class="btn btn-primary">Kaggle</a>
+   </div>
+</div>
+    </div>
+    <div class="col-4">
+      <div class="card text-success"style="width: 20rem;">
+
+  <div class="card-block">
+    <h4 class="card-title">Artist Classifier</h4>
+    <p class="card-text">To use a pre trained models to help predict the author of a painting,given a dataset of author and his paintings.</p>
+    <a href="https://github.com/shreyasseshadri/Artist-classifier" class="btn btn-primary">Github</a>
+  </div>
+</div>
+</div>
+  </div>
+
+  <div class="row justify-content-around">
+    <div class="col-4">
+      <div class="card text-success"style="width: 20rem;">
+
+  <div class="card-block">
+    <h4 class="card-title">Card title</h4>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <a href="#" class="btn btn-primary">Go somewhere</a>
+  </div>
+</div>
+    </div>
+    <div class="col-4">
+      <div class="card text-success"style="width: 20rem;">
+
+  <div class="card-block">
+    <h4 class="card-title">Card title</h4>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <a href="#" class="btn btn-primary">Go somewhere</a>
+  </div>
+</div>
+    </div>
+    <div class="col-4">
+      <div class="card text-success"style="width: 20rem;">
+
+  <div class="card-block">
+    <h4 class="card-title">Card title</h4>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <a href="#" class="btn btn-primary">Go somewhere</a>
+  </div>
+</div>
+</div>
+<div class="logo">
+<!-- <a href=" https://github.com/shreyasseshadri"><img style="border-radius:50%;" src='../../static/projects/images/GitHub-Mark.png' /></a> -->
+</div>
+{% endblock %}

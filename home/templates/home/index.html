@@ -7,6 +7,12 @@
   <a class="nav-link" href="/projects">Projects</a>
 </li>
 <li class="nav-item">
-  <a class="nav-link" href="/about">About Me</a>
+  <a class="nav-link" href="/about">Resume</a>
 </li>
 {% endblock%}
+{% block content %}
+{% load static %}
+<img src="{% static "home/images/FB_IMG_1517292534142.jpg" %}" alt="My image" style="width:500px;height:500px;"/>
+{% endblock%}
+<!-- /home/shreyas/personal_website/home/templates/home/index.html
+/home/shreyas/personal_website/FB_IMG_1517292534142.jpg -->

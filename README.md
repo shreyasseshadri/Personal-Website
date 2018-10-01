@@ -6,4 +6,4 @@ This is a website under construction made using django<br>
 
 ![alt text](images/projects.png "Description goes here")
 
-The home page is still under construction the reusme page resirects to my resume.
+The home page is still under construction the reusme page redirects to my resume.
